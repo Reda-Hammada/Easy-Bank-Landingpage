@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root {
+
+    --universal-font: 'Work Sans', sans-serif;
+}
+/* Navbar starts */
+
+.navbar-container {
+
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    
+}
+.navlist-container ul li{
+
+    display: inline;
+    margin-left: 35px;
+    font-family: var(--universal-font);
+    opacity: 0.6;
+}
