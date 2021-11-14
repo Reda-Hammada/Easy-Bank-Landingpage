@@ -84,5 +84,53 @@ body {
     
     background-image: url(/easybank-landing-page-master/images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
-    background-position: left 30%;
+    background-position: 500px bottom ;
+    background-color: rgba(255, 255, 255, 0.74);
+
+}
+
+
+.nextgeneration-container {
+
+    margin-top: 170px;
+    margin-left: 60px;
+    font-family: var(--universal-font);
+    text-align: justify;
+
+}
+
+.nextgeneration-container h1  {
+
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.nextgeneration-container p {
+
+    padding-top: 20px;
+    opacity: 0.6;
+    font-size: 1.2rem;
+
+}
+
+.nextgeneration-container button {
+
+    width: 140px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: hidden;
+    font-family: var(--universal-font);
+    background-image: linear-gradient(to right, rgb(121, 250, 121), rgb(13, 207, 214));
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+/* intro ends */
+
+.whychoose-container {
+
+    background-color: whitesmoke;
 }
