@@ -86,6 +86,7 @@ body {
     background-repeat: no-repeat;
     background-position: 500px bottom ;
     background-color: rgba(255, 255, 255, 0.74);
+    height: fit-content;
 
 }
 
@@ -130,7 +131,33 @@ body {
 
 /* intro ends */
 
-.whychoose-container {
+.whychoose-container { /* Features */
 
     background-color: whitesmoke;
+    font-family: var(--universal-font);
+    padding-top: 100px;
+    height: auto;
+
+    
 }
+
+.whychoose-container h2 {
+
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+}
+
+.whychoose-container p {
+
+    opacity: 0.6;
+    padding-top: 20px;
+}
+
+.features {
+
+    text-align: justify;
+    padding-top: 60px;
+
+}
+
+
