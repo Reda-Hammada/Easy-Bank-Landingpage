@@ -158,5 +158,40 @@ body {
     text-align: justify;
     padding-top: 60px;
 
+} /*features end*/
+
+/* article starts */
+
+.ultimate-articles-container {
+
+    width: 70%;
+    font-family: var(--universal-font);
 }
 
+.ultimate-articles-container span {
+
+opacity: 0.6;
+font-size: 0.8rem;
+
+}
+
+.currency-article-container,
+.restaurant-article-container,
+.plane-article-container,
+.conffeti-article-container{
+
+    width: 90%;
+}
+
+.burgerBar{
+
+    width: 90%;
+    background-color: #fff;
+}
+
+.burgerBar ul li{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
