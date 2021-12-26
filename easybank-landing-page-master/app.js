@@ -4,12 +4,16 @@ var burgerIcon;
 var navBarContainer;
 
 // passing values to variables 
-burgerIcon = document.getElementById('burgerIcon')
-navBarContainer = document.getElementsByClassName('burgerBar')
+burgerIcon = document.getElementById('burgerIcon');
+navBarContainer = document.querySelector('.burgerBar');
 
 // Treatment 
-function show(){
+
+burgerIcon.addEventListener('click', function show(){
+
+    navBarContainer.style.display = 'flex';
+
+});
 
 
-    
-}
+

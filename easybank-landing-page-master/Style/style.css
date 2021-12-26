@@ -187,6 +187,7 @@ font-size: 0.8rem;
 
     width: 90%;
     background-color: #fff;
+    display: none;
 }
 
 .burgerBar ul li{
