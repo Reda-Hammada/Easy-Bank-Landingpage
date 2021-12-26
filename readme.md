@@ -6,6 +6,6 @@ Easy Bank Landing page is a challenge i took on frontend Mentor to strenghten an
 3- Javascript
 
 ### Author: 
-1- Github: Reda-Hammada [Reda-Hammada](https://github.com/Reda-Hammada).  
-2- Linkedin : Reda Hammada [Reda Hammada](https://www.linkedin.com/in/reda-hammada-9653a8203/).  
+1- Github: [Reda-Hammada](https://github.com/Reda-Hammada).  
+2- Linkedin :  [Reda Hammada](https://www.linkedin.com/in/reda-hammada-9653a8203/).  
 3- Email: hammada.reda.dev@gmail.com 
