@@ -1,0 +1,45 @@
+
+@media screen and  (max-width: 800px){ /* Mobile */
+
+
+    .largeScreenList {
+
+        display: none;
+    }
+
+    .button-container{
+        display: none;
+    }
+
+    .intro-container{
+        background-image: url(/easybank-landing-page-master/images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+
+    }
+
+    .mobile-nav-container{
+
+        display:flex ;
+        justify-content: space-between;
+    }
+
+    .mobile-nav-container .burgerIconContainer{
+
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media screen and (min-width : 1020px) {
+    
+
+    .burgerIconContainer{
+
+        display: none;
+      
+
+
+    }
+}

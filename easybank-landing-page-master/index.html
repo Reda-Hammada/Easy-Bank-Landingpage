@@ -6,18 +6,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="Style/flexboxgird.css">
   <link rel="stylesheet" href="Style/style.css">
+  <link rel="stylesheet" href="Style/responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Frontend Mentor | Easybank landing page</title>
 </head>
 <body>
   <header class="navbar-container">
-    <nav class="row">
-      <figure class=" logo-container col-xs-12 col-md-3 col-lg-3">
+    <nav class="row mobile-nav-container">
+      <figure class=" logo-container col-xs-6 col-md-3 col-lg-3">
         <img  id="logo" src="images/logo.svg" alt="logo">
       </figure>
-      <div class="navlist-container col-xs-6 col-md-5 col-lg-5">
+      <div class="burgerIconContainer">
         <i id="burgerIcon" class="fas fa-align-justify"></i>
-        <div class="burgerBar">
+      </div>
+      <div class="burgerBar">
+        <div id="closeNavBar">X</div>
           <ul>
             <li>Home</li>
             <li>About</li>
@@ -25,8 +28,10 @@
             <li>Blog</li>
             <li>Careers</li>
           </ul>
-        </div>
-        <ul>
+      </div>
+      <div class="navlist-container col-md-5 col-lg-5">
+        
+        <ul class="largeScreenList">
           <li>Home</li>
           <li>About</li>
           <li>Contact</li>
@@ -37,10 +42,11 @@
     <div class="button-container">
       <button >Request Invite</button>
     </div>
+  
     </nav>
   </header>
   <main>
-      <section class="  row intro-container">
+      <section class="row intro-container">
           <div class=" nextgeneration-container col-xs-12 col-md-4 col-lg-6">
             <h1>Next Generation<br>
                 digital banking</h1>
@@ -54,8 +60,8 @@
           </div>
 
       </section>
-      <section class="whychoose-container ">
-        <div class="row container">
+      <section class="whychoose-container">
+        <div class="row">
           <div class="col-xs-12 col-md-12 col-lg-12">
             <h2>Why choose Easybank?</h2>
             <p>we leverage Open Banking to turn your bank account into your financial hub.<br>
@@ -101,7 +107,7 @@
       </section>
       <section class="ultimate-articles-container">
         <h2>Latest Articles</h2>
-        <div class="row">
+        <div class="row container">
          <div class =" col-xs-12 col-md-3 col-lg-3">
            <article class="currency-article-container">
              <div>
