@@ -1,6 +1,7 @@
 # Easy Bank Landing page   
+## About  
 Easy Bank Landing page is a challenge i took on frontend Mentor to strenghten and enhace my front-end skills  
-## Built With:
+### Built With:
 1- HTML5  
 2- CSS3 (using flexgrid 12 columns library)  
 3- Javascript

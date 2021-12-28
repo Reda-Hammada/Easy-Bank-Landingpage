@@ -123,6 +123,22 @@ body {
 }
 
 
+#closeNavBar{
+
+    position: absolute;
+    right: 60px;
+    top: 120px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#closeNavBar:hover{
+
+    color: rgb(13, 207, 214);
+    transform: scale(1.1);
+
+}
+
 
 
 
