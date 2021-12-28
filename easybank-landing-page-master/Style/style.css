@@ -199,7 +199,7 @@ body {
 
 .whychoose-container { /* Features */
 
-    background-color: rgba(245, 245, 245, 0.76);
+    background-color: rgba(235, 235, 235, 0.986);
     font-family: var(--universal-font);
     padding-top: 100px;
     height: auto;
@@ -243,6 +243,7 @@ body {
     text-align: justify;
     margin-top: 10px;
     padding-left: 10px;
+    font-size: 0.9rem;
 }
 
 .ultimate-articles-container h3{
@@ -270,10 +271,11 @@ padding-left: 10px;
 .conffeti-article-container{
 
    
-   width: 90%;
+   width: 100%;
    border-radius: 10px;
    background-color: #fff;
    height: 400px;
+   cursor: pointer;
 
 }
 
@@ -324,3 +326,10 @@ padding-left: 10px;
     margin-bottom: 30px;
 }
 /*article ends */
+
+/*footer starts */
+footer{
+
+    background-color: rgba(46, 1, 46, 0.459);
+    width: 100%;
+}
