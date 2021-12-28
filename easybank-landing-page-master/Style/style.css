@@ -183,7 +183,7 @@ body {
 
 .whychoose-container { /* Features */
 
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.76);
     font-family: var(--universal-font);
     padding-top: 100px;
     height: auto;
@@ -218,6 +218,7 @@ body {
     width: 100%;
     font-family: var(--universal-font);
     padding-top: 50px;
+    background-color: whitesmoke;
     
 }
 
@@ -225,22 +226,25 @@ body {
 
     text-align: justify;
     margin-top: 10px;
+    padding-left: 10px;
 }
 
 .ultimate-articles-container h3{
 
     margin-top: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+
 }
 
-.ultimate-articles-container span{
 
-    margin-top: 10px;
-}
 
 .ultimate-articles-container span {
 
 opacity: 0.6;
 font-size: 0.8rem;
+margin-top: 10px;
+padding-left: 10px;
 
 }
 
@@ -252,26 +256,52 @@ font-size: 0.8rem;
    
    width: 90%;
    border-radius: 10px;
+   background-color: #fff;
+   height: 400px;
 
+}
+
+
+.currency-article-container:hover,
+.restaurant-article-container:hover,
+.plane-article-container:hover,
+.conffeti-article-container:hover{
+
+    transform: scale(1.1);
 }
 
 .conffeti-article-container img{
     width: 100%;
-
+    padding-top: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
 .currency-article-container img{
     width: 100%;
+    padding-top: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .restaurant-article-container img{
 
     width: 100%;
+    padding-top: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
 }
 
 .plane-article-container img{
     width: 100%;
+    padding-top: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
 
 .latestArticlesContainer{
 
