@@ -344,6 +344,8 @@ footer ul li {
     list-style: none;
     padding-left: 10px;
     color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
 
     
 }
@@ -387,7 +389,7 @@ footer ul li {
 
     #logo-footer{
         padding-bottom: 30px;
-        stroke: #000;
+        color: #fff;
     }
 
     .attribution{
