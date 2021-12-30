@@ -1,5 +1,5 @@
 
-@media screen and  (max-width: 800px){ /* Mobile */
+@media screen and  (max-width: 1000px){ /* Mobile */
 
 
     .largeScreenList {
@@ -27,6 +27,32 @@
 
         margin-top: 20px;
     }
+
+    .whychoose-container{
+
+        width: 100%;
+    }
+
+    .chooseContainer{
+
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .online-container,
+    .budgeting-container,
+    .fast-container,
+    .api-container{
+
+        width: 50%;
+        margin-right:auto;
+        margin-left:auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
 
 
 }
