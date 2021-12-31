@@ -1,5 +1,5 @@
 
-@media screen and  (max-width: 1000px){ /* Mobile */
+@media screen and  (max-width: 1000px){ /* Mobile and tablet */
 
 
     .largeScreenList {
@@ -28,6 +28,7 @@
         margin-top: 20px;
     }
 
+    /* features*/
     .whychoose-container{
 
         width: 100%;
@@ -53,12 +54,33 @@
         margin-top: 20px;
     }
 
+    /* Articles*/
+    .latestArticlesContainer{
+
+        text-align: center;
+    }
+    .ultimate-articles-container {
+        width: 100%;
+    }
+
+.currency-article-container,
+.restaurant-article-container,
+.plane-article-container,
+.conffeti-article-container{
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
 
     footer{
 
         text-align: center;
+        width: 100%;
     }
 
+    
 
 
 }
