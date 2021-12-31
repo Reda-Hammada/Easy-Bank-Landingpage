@@ -1,7 +1,7 @@
 
-@media screen and  (max-width: 1000px){ /* Mobile and tablet */
+@media screen and  (max-width: 1020px){ /* Mobile and tablet */
 
-
+    /* navbar */
     .largeScreenList {
 
         display: none;
@@ -9,12 +9,6 @@
 
     .button-container{
         display: none;
-    }
-
-    .intro-container{
-        background-image: url(/easybank-landing-page-master/images/bg-intro-mobile.svg);
-        background-repeat: no-repeat;
-
     }
 
     .mobile-nav-container{
@@ -27,6 +21,42 @@
 
         margin-top: 20px;
     }
+
+    /* intro section */
+
+    .intro-container{
+
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .nextgeneration-container{
+
+        order: 2;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .introimage-container{
+        width: 100%;
+        background-image: url(/easybank-landing-page-master/images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+        
+    }
+    .introimage-container img{
+
+        width: 90%;
+        margin-left: 5%;
+    }
+
+  
 
     /* features*/
     .whychoose-container{
@@ -47,11 +77,11 @@
     .fast-container,
     .api-container{
 
-        width: 50%;
+        width: 80%;
         margin-right:auto;
         margin-left:auto;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     /* Articles*/
@@ -68,10 +98,20 @@
 .plane-article-container,
 .conffeti-article-container{
 
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    
+}
+
+.currency-article-container:hover,
+.conffeti-article-container:hover,
+.restaurant-article-container:hover,
+.plane-article-container:hover{
+
+transform: scale(1.4);
+
 }
 
     footer{
